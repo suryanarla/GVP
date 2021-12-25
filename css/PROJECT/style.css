@@ -1,0 +1,65 @@
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+header {
+  border: 2px solid #ddd;
+  background-color: #ddd;
+  color: blue;
+}
+
+.card {
+  border: 2px solid #ddd;
+  padding: 2%;
+  margin: 2%;
+  text-align: center;
+  width: 23%;
+  font-size: 25px;
+}
+
+h4 {
+  color: blue;
+}
+s {
+  color: red;
+}
+
+button {
+  background-color: green;
+  color: white;
+  padding: 1%;
+  font-size: 13px;
+  width: 30%;
+}
+
+.card img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .parent {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    width: 90%;
+    background-color: #ddd;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .parent {
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    background-color: skyblue;
+  }
+}
