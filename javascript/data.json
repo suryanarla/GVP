@@ -1,0 +1,25 @@
+{
+  "cards": [
+    {
+      "img": "images/iphone13pro.jfif",
+      "name": "Iphone13 Pro",
+      "mrp": "1,20,000/-",
+      "offerprice": "85,000/-",
+      "button": "buynow"
+    },
+    {
+      "img": "images/lgg8x.jpg",
+      "name": "Lg G8x",
+      "mrp": "70,000/-",
+      "offerprice": "25,000/-",
+      "button": "buynow"
+    },
+    {
+      "img": "images/oneplus8t.jfif",
+      "name": "OnePlus 8T",
+      "mrp": "60,000/-",
+      "offerprice": "30,000/-",
+      "button": "buynow"
+    }
+  ]
+}
