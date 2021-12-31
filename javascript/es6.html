@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //   const a = 10;
+      //   console.log(a); //10
+      //   function hai() {
+      //     const a = 30;
+      //     console.log(a); //30
+      //   }
+      //   hai();
+      //   console.log(a); //30
+
+      //   function
+      //   function add(x, y) {
+      //     return x + y;
+      //   }
+
+      //   console.log(add(2, 3));
+
+      // anonymous function
+      //   let add = function (a, b) {
+      //     return a + b;
+      //   };
+
+      //   console.log(add(3, 5));
+
+      // arrow functions
+      //   let add = (a, b) => {
+      //     return a + b;
+      //   };
+
+      //   console.log(add(5, 5));
+
+      // objects
+      //   let employee = {
+      //     name: "surya",
+      //     id: 3221,
+      //     designation: "trainer",
+      //   };
+      //   console.log(
+      //     employee.name + " " + employee.id + " " + employee.designation
+      //   );
+
+      //   let desgn = employee.designation;
+      //   console.log(desgn);
+
+      //   destructuring of objects
+      //   let { name, designation, id } = employee;
+      //   console.log(name);
+      //   console.log(designation);
+      //   console.log(id);
+
+      //   arrays
+      let employee = ["hanuman", "krishna", "gopi", "sreeram"];
+      //   let emp2 = employee[1];
+      //   console.log(emp2);
+
+      //   destructuring of arrAY
+      //   let [emp1, emp2, emp3, emp4] = employee;
+      //   console.log(emp1);
+      //   console.log(emp2);
+      //   console.log(emp3);
+      //   console.log(emp4);
+
+      // spread operator
+
+      //   let [emp1, emp2, ...remainData] = employee;
+      //   console.log(emp1);
+      //   console.log(emp2);
+      //   console.log(remainData);
+
+      // Rest Operator
+      //   function add(x, y, ...remainList) {
+      //     // return x + y;
+      //     console.log(x);
+      //     console.log(y);
+      //     console.log(remainList);
+      //   }
+      //   console.log(add(2, 3, 6, 88, 9, 5));
+
+      let students = ["rahul", "chiranjevi", "sathvika", "surya", "rashmika"];
+
+      for (i = 0; i < students.length; i++) {
+        console.log(students[i]);
+      }
+
+      students.forEach(function (value) {
+        return console.log(value);
+      });
+
+      students.map(function (value, index) {
+        return console.log(value);
+      });
+    </script>
+  </body>
+</html>
